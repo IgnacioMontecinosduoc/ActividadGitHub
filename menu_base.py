@@ -1,4 +1,8 @@
 menu_base.py
+def datos_cristian():
+    print("mi nombre es Crsitian Espinoza & tengo 29 años. ")
+    
+
 while True:
     print("\n--- MENÚ PRINCIPAL ---")
     print("1. Función de integrante 1")
@@ -14,6 +18,7 @@ while True:
     elif op == "2":
         pass # Aquí se llamará a la función del integrante 2
     elif op == "3":
+        datos_cristian()
         pass # Aquí se llamará a la función del integrante 3
     else:
         print(" Opción inválida.")
