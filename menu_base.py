@@ -1,6 +1,6 @@
 menu_base.py
 def datos_ignacio():
-print("Mi nombre es Ignacio Montecinos y tengo 18 años.")
+print("Mi nombre es Ignacio Montecinos y tengo 23 años.")
 while True:
     print("\n--- MENÚ PRINCIPAL ---")
     print("1. Función de integrante 1")
