@@ -1,4 +1,7 @@
 menu_base.py
+def datos_cristian():
+    print("mi nombre es Crsitian Espinoza & tengo 29 años. ")
+    
 def datos_alvaro():
 print("Mi nombre es Alvaro y tengo 26 años.")
 
@@ -20,6 +23,7 @@ while True:
     elif op == "2":
         datos_alvaro()
     elif op == "3":
+        datos_cristian()
         pass # Aquí se llamará a la función del integrante 3
     else:
         print(" Opción inválida.")
