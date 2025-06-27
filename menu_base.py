@@ -1,6 +1,10 @@
 menu_base.py
+def datos_alvaro():
+print("Mi nombre es Alvaro y tengo 26 años.")
+
 def datos_ignacio():
 print("Mi nombre es Ignacio Montecinos y tengo 23 años.")
+
 while True:
     print("\n--- MENÚ PRINCIPAL ---")
     print("1. Función de integrante 1")
@@ -14,7 +18,7 @@ while True:
     elif op == "1":
        datos_ignacio()
     elif op == "2":
-        pass # Aquí se llamará a la función del integrante 2
+        datos_alvaro()
     elif op == "3":
         pass # Aquí se llamará a la función del integrante 3
     else:
